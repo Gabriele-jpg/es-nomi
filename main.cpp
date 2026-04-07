@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-    const char* studenti[] = {
+    const char* studenti[] = { //ho deciso di usare un puntatore a una stringa invece che un array di string perché funziona ugualmente ma questa versione è un puntatore a una stringa costante
         "1. Acierno Vito",
         "2. Alfano Andrea",
         "3. Attrotto Giovanni Pio",
